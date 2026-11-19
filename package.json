@@ -1,0 +1,17 @@
+{
+  "name": "peachlight-films",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio film.jsx",
+    "render:wedding": "remotion render film.jsx Wedding out/wedding.mp4 --codec=h264",
+    "render:fantasy": "remotion render film.jsx PeachBlossom out/peach-blossom.mp4 --codec=h264"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.545",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.545"
+  }
+}
